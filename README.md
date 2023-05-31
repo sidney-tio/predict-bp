@@ -43,8 +43,6 @@ The respective algorithms achieved the following metrics on a specific test set:
 | DeepRNN           | 14.32     | 9.26     | 11.80         | 18.32      | 11.65      | 15.50          |
 
 
-The full results can be found [here](https://docs.google.com/spreadsheets/d/1703wnRnn-wbPm7SKUf2oT-SRALQqlMrmiX2drLbROG0/edit?usp=sharing).
-
 ## Extension
 
 Age and other meta data could be added into the enhance the ResNet1D model for more accurate figures.
