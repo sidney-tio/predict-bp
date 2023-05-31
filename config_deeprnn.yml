@@ -1,0 +1,15 @@
+output_dir: "./outputs/"
+data_dir: "./data/"
+
+batch_size: 64
+deeprnn:
+  seq_feature_dim: 6
+  hidden_dim: 6
+  n_outputs: 2
+  batch_first: True
+  n_lstms: 1
+
+trainer:
+  min_epochs: 5
+  max_epochs: 30
+  check_val_every_n_epoch: 1

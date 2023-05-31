@@ -1,0 +1,5 @@
+lightning
+numpy
+pyyaml
+h5py
+tensorboardX >=2.2, <=2.5.1

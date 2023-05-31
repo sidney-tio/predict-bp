@@ -1,0 +1,17 @@
+output_dir: './outputs/'
+data_dir: './data/'
+
+batch_size: 64
+resnet:
+  in_channels : 1
+  base_filters : 64
+  kernel_size : 7
+  stride : 2
+  groups : 1
+  n_block : 4
+  n_classes : 2
+
+trainer:
+  min_epochs: 20
+  max_epochs: 50
+  check_val_every_n_epoch: 2
